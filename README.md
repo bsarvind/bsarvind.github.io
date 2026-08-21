@@ -1,19 +1,28 @@
-# B S Arvind — Personal Portfolio
+# B S Arvind Personal Portfolio
 
-A responsive single-page portfolio recreated from the supplied Figma reference.
+This version is designed as a premium personal networking portfolio inspired by the supplied Figma reference.
 
 ## Included
-- Responsive desktop + mobile layout
-- Light / dark mode toggle
-- Sticky navigation
-- Hero, About, Skills, Experience, Work and Contact sections
-- Personal positioning around Finance × Technology × AI
-- LinkedIn connection button
+- User-provided photographs
+- Responsive desktop and mobile UI
+- Light and dark themes
+- Scroll reveal transitions
+- Animated career counters
+- Sticky navigation with mobile menu
+- Finance, audit, compliance and AI positioning
+- Experience timeline
+- Selected work section
+- Travel, exploring and movies section
+- Email, phone and LinkedIn contact actions
+- No resume section
 
-## Add your photo
-Replace the placeholder blocks in `index.html` with your own image when ready. The current placeholders intentionally do not use the sample person's photograph from the reference design.
+## Personal details
+Phone: +91 99649 62336
+Email: cabsarvind@gmail.com
+LinkedIn: https://www.linkedin.com/in/arvind-bs
 
-## Run
-Open `index.html` in any modern browser.
+## Run locally
+Open `index.html` in a modern browser.
 
-For deployment, upload the folder to GitHub Pages, Netlify, Vercel, or any static hosting service.
+## Deploy
+Upload the folder to any static hosting provider such as GitHub Pages, Netlify or Vercel.
