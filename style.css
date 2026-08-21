@@ -38,3 +38,16 @@ body.dark-mode{--paper:#0d121a;--ink:#f3f5f7;--muted:#9ca5b2;--line:#27303c;--da
 @media(max-width:520px){
   .hero h1{font-size:54px}.hero-title{font-size:16px}.hero-description{font-size:13px}.quick-links{display:block}.quick-links a{display:inline-block;margin:0 10px 10px 0}.numbers{grid-template-columns:1fr 1fr}.stat strong{font-size:29px}.number-heading p{font-size:11px}.about-visual img{box-shadow:12px 12px 0 #dfe2e7}.about-copy .large-copy{font-size:30px}.expertise-card{min-height:250px;padding:25px}.timeline-item{grid-template-columns:45px 20px 1fr;gap:9px}.timeline-top{display:block}.timeline-top time{display:block;margin-top:4px}.project-art{height:180px}.beyond-photos{min-height:380px}.photo-large img{height:360px}.photo-small img{height:200px}.contact h2{font-size:60px}.contact-details a{grid-template-columns:60px 1fr 15px}
 }
+
+/* Bidirectional scroll reveal */
+.reveal {
+  will-change: opacity, transform;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
